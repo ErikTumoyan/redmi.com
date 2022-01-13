@@ -1,0 +1,29 @@
+.redmi9timg{
+    width: 300px;
+    background-size: cover;
+}
+
+.img{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:299px) {
+    .redmi9timg{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:249px) {
+    .redmi9timg{
+        width: 220px;
+    }
+}
+
+@media screen and (max-width:219px) {
+    .redmi9timg{
+        width: 190px;
+    }
+}
